@@ -89,8 +89,8 @@ body {
   height: 37px;
 }
 .hero-image {
-  flex: 3 1 auto;
-  max-height: 250px;
+  width: auto;
+  height: 333px;
 }
 
 .content {
@@ -156,6 +156,7 @@ body {
 .advertisement {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #3882f6;
   padding: 50px 140px;
   border-radius: 8px;
