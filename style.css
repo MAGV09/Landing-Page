@@ -80,9 +80,12 @@ body {
 }
 .signUp-button {
   background-color: #3882f6;
-  color: #e5e7eb;
+  color: #f9faf8;
   padding: 6px 28px;
   border-radius: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  height: 37px;
 }
 .hero-image {
   flex: 3 1 auto;
@@ -127,7 +130,6 @@ body {
   align-items: center;
   background-color: #e5e7eb;
   padding: 100px 0;
-
 }
 
 .qoute-text {
@@ -136,9 +138,47 @@ body {
   font-weight: 300;
   width: 800px;
 }
-.qoute-author{
+.qoute-author {
   width: 800px;
   font-weight: 900;
-    margin-left: auto;
-    font-size: 18px;
+  margin-left: auto;
+  font-size: 18px;
+}
+
+.advertisement-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 200px;
+}
+
+.advertisement {
+  display: flex;
+  justify-content: center;
+  background-color: #3882f6;
+  padding: 50px 140px;
+  border-radius: 8px;
+  gap: 160px;
+}
+
+.advertisement-header {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+.advertisement-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.advertisement .signUp-button {
+  border: 2px solid #f9faf8;
+}
+.footer {
+  font-size: 18px;
+  background-color: #1f2937;
+    color: #e5e7eb;
+ 
+text-align: center;
+padding: 42px 0;
 }
