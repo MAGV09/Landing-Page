@@ -42,7 +42,8 @@ body {
   background-color: #1f2937;
 
   padding: 16px 200px;
-  gap: 78px;
+  gap: 120px;
+  padding-bottom: 90px;
 }
 
 .logo {
@@ -98,7 +99,7 @@ body {
   align-items: center;
   justify-content: flex-start;
 
-  gap: 25px;
+  gap: 50px;
   padding: 40px 0 100px 0;
 }
 .content-title {
@@ -177,8 +178,8 @@ body {
 .footer {
   font-size: 18px;
   background-color: #1f2937;
-    color: #e5e7eb;
- 
-text-align: center;
-padding: 42px 0;
+  color: #e5e7eb;
+
+  text-align: center;
+  padding: 42px 0;
 }
