@@ -14,15 +14,10 @@ body {
   flex-direction: column;
 }
 
-.header,
+.logo,
 .right-links {
-  display: flex;
-  justify-content: space-between;
+width: 500px;
 }
-/* .header,
-.hero {
-  width: 1300px;
-} */
 
 .logo,
 .hero-main-text {
@@ -45,13 +40,22 @@ body {
   gap: 120px;
   padding-bottom: 90px;
 }
+.header{
+    display: flex;
 
+  justify-content: center;
+}
 .logo {
   font-size: 24px;
+  
 }
 .right-links {
   list-style: none;
+    display: flex;
+  justify-content: space-between;
   gap: 24px;
+  
+
 }
 .links {
   text-decoration: none;
@@ -61,13 +65,13 @@ body {
   justify-content: center;
   align-items: flex-start;
   padding-bottom: 50px;
-  gap: 42px;
+  
 }
 .hero-content {
   display: flex;
   flex-flow: column wrap;
   align-items: flex-start;
-
+ width: 500px;
   height: 250px;
   gap: 6px;
 }
